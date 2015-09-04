@@ -1,0 +1,101 @@
+body {
+	background-color: #7f8c8d;
+}
+.mainHeading {
+	background-color: #2ecc71;
+	width: 35vw;
+	margin-top: 1rem;
+	margin: auto;
+}
+.headerContent {
+	font-family: sans-serif;
+	font-size: 22px;
+	padding: 9rem 0rem 1rem 1rem;
+	color: #ecf0f1;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.navigation {
+	background-color: #34495e;
+	width: 35vw;
+	margin-top: 0;
+	margin: auto;
+	text-align: right;
+	
+}
+.navBarLinks {
+	display: inline-block;
+	color: #ecf0f1;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 1rem;
+
+}
+
+.mainArticle {
+	height: 100vw;
+	width: 35vw;
+	margin: auto;
+	background-color: #ecf0f1;
+}
+.articleTitle {
+	font-size: 18px;
+}
+.headingPads {
+	padding: 2rem 0rem 0rem 1rem;
+}
+.para {
+	font-size: 12px;
+	padding:  0rem 2.5rem 0rem 2.5rem;
+	line-height: 1.5;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.color {
+	color: orangered;
+}
+.sectionHead {
+	font-size: 14px;
+	border-bottom: 1px solid #CFCFCF;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.grayBox {
+	background-color: #bdc3c7;
+	margin: 1rem;
+	font-size: 12px;
+	padding: .5rem 0rem .25rem 1.5rem;
+	text-align: left;
+}
+.placeHolder {
+	
+}
+.placeHolder.one {
+	height: 100px;
+	width: 30vw;
+	margin: auto;
+	background: url(http://placehold.it/350x150) 0 0;
+}
+.mainTable {
+	margin: .5rem 1rem .5rem 1rem;
+	font-size: 12px;
+
+}
+.mainTable th {
+	border: 1px solid #CFCFCF;
+	background-color: #BFBFBF;
+	padding: .5rem;
+	text-align: left;
+
+}
+.mainTable td {
+	border: 1px solid #CFCFCF;
+	width: 
+}
+
+
+
