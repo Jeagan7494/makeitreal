@@ -176,6 +176,46 @@ textarea {
 	margin-bottom: 2rem;
 }
 .buttonType2 {
+	padding: .5rem 13rem .5rem 13rem;
+	background: #B50003;
+	font-size: 12px;
+	color: white;
+	border: none;
+	display: block;
+	margin: 0 auto;
+}
+.userComments {
+	display: block;
+	margin: 0 auto;
+}
+.image1 {
+	float: left;
+	margin-left: 2.5rem;
+	margin-top: 2rem;
+	margin-right: .5rem;
+}
+.image2 {
+	float: left;
+	margin-left: 5rem;
+	margin-right: .5rem
+}
+.para2 {
+	font-size: 12px;
+	padding:  0rem 2.5rem 0rem 5rem;
+	line-height: 1.5;
+}
+.usersComments {
+	font-size: 12px;
+	margin-top: 1rem;
+	display: inline-block;
 	
 }
+header.bold.first {
+	line-height: 1.5;
+	margin-top: 1rem;
+}
+
+
+
+
 
