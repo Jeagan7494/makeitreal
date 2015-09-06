@@ -33,7 +33,7 @@ body {
 }
 
 .mainArticle {
-	height: 100vw;
+	height: 100%;
 	width: 35vw;
 	margin: auto;
 	background-color: #ecf0f1;
@@ -81,21 +81,101 @@ body {
 	background: url(http://placehold.it/350x150) 0 0;
 }
 .mainTable {
-	margin: .5rem 1rem .5rem 1rem;
+	margin: .5rem 1.5rem .5rem 1.5rem;
 	font-size: 12px;
+	table-layout: fixed;
+
 
 }
 .mainTable th {
 	border: 1px solid #CFCFCF;
 	background-color: #BFBFBF;
 	padding: .5rem;
-	text-align: left;
+	
 
 }
 .mainTable td {
 	border: 1px solid #CFCFCF;
-	width: 
+
 }
+.firstCell {
+	width: 3rem;
 
-
+}
+.secondCell {
+	width: 17rem;
+	text-align: left;
+	padding: .5rem;
+}
+.thirdCell {
+	width: 5rem;
+}
+.textCenter {
+	text-align: center;
+	vertical-align: middle;
+}
+.tableButton {
+	padding: .5rem 1rem .5rem 1rem;
+	background: #53B4F5;
+	color: white;
+	border: none;
+}
+.list {
+	padding: 0rem 2.5rem 0rem 0rem;
+	font-size: 12px;
+	margin-left: 1rem;
+	margin-bottom: .5rem;
+	line-height: 1.5;
+}
+.lightText {
+	color: #A6A6A6;
+	
+}
+.commentHeading {
+	margin-left: 1rem;
+}
+.fancy {
+	line-height: .5;
+	font-size: 12px;
+}
+.fancy span {
+	display: inline-block;
+	position: relative;
+}
+fieldset.fancy  {
+  	border-top: 1px solid #A6A6A6;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+fieldset.fancy legend {
+	padding: 5px 10px;
+	margin-left: 1rem;
+}
+.form1 {
+	margin: 2rem;
+  
+}
+label {
+	display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-size: 12px;
+}
+.textBox {
+	margin-bottom: .5rem;
+}
+textarea {
+	display: block;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+.buttonType2 {
+	
+}
 

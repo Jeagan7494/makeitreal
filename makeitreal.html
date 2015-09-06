@@ -25,34 +25,34 @@
 				<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
 					<table class="mainTable">
   						<tr class="tableHeading">
-   							 <th>What</th>
-   							 <th>Where</th>
-   							 <th>How</th>
+   							 <th class="firstCell textCenter">What</th>
+   							 <th class="secondCell">Where</th>
+   							 <th class="thirdCell textCenter">How</th>
  						</tr>
  						<tr>
-    						<td>HTML</td>
-   							 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut.</td>
-   							 <td>
-   							 	button
+    						<td class="firstCell textCenter">HTML</td>
+   							 <td class="secondCell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut.</td>
+   							 <td class="thirdCell textCenter">
+   							 	<button type="button" class="tableButton">Go!</button>
    							 </td>
   						</tr>
   						<tr>
-    						<td>CSS</td>
-   							 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-   							 <td>
-   							 	button
+    						<td class="firstCell textCenter">CSS</td>
+   							 <td class="secondCell">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+   							 <td class="thirdCell textCenter">
+                  <button type="button" class="tableButton">Try!</button>
    							 </td>
   						</tr>
   						<tr>
-    						<td>JS</td>
-   							 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-   							 <td>
-   							 	button
+    						<td class="firstCell textCenter">JS</td>
+   							 <td class="secondCell">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+   							 <td class="thirdCell textCenter">
+   							 	<button type="button" class="tableButton">View!</button>
    							 </td>
   						</tr>
 					</table>
   			<header class="sectionHead headingPads bold">Section Title</header>
-				<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
+				  <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
 				<div class="grayBox">
 					<pre class="red">
 $('#myElement').click(function() {
@@ -60,15 +60,40 @@ $('#myElement').click(function() {
 });
 					</pre>
 				</div>
-				<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
-				<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
-			<header class="sectionHead headingPads bold">Section Title</header>
-				<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
+				  <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
+				  <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
+			  <header class="sectionHead headingPads bold">Section Title</header>
+				  <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus. </p>
   		
-			<div class="imageGallery">
+			  <div class="imageGallery">
 				<div class="placeHolder one"></div>
   			</div>
-  		</article>
-
+        <ol>
+          <li class="list"><span class="bold">Create HTML:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus.</li>
+          <li class="list"><span class="bold">Make Pretty with CSS:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus.</li>
+          <li class="list"><span class="bold">Profit:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium odio erat, vel lobortis erat accumsan ut. Mauris, in tempor pellentesque nec. Aenean non posuere dui. Ut lobortis justo ut lacus.</li>
+        </ol>
+        <p class="para lightText">Posted by <span class='bold'>Author</span> under <span class='bold'>Web > Dev</span> on <span class='bold'>January 13, 2014</span></p>
+  		  <p class="headingPads commentHeading bold">Comments</p>
+        <fieldset class="fancy">
+            <legend class="lightText">USER INFO</legend>
+        </fieldset>
+        <form class="form1">
+          <label>Email</label>
+          <input type="text" name="email" size="40" class="textBox"><br>
+          <label>Display Name</label>
+          <input type="text" name="email" size="40" class="textBox"><br>
+          <label>Website</label>
+          <input type="text" name="email" size="40" class="textBox"><br>
+        </form>
+        <fieldset class="fancy">
+            <legend class="lightText">COMMENT</legend>
+        </fieldset>
+        <form class="two">
+          <textarea name="textarea" rows="6" cols="55"></textarea>
+        </form>
+        <button type="submit" class="buttonType2">Submit</button>
+      </article>
+      </div>
   </body>
   </html>
